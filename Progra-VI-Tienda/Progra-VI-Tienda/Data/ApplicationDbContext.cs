@@ -7,7 +7,8 @@ namespace Progra_VI_Tienda.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         { }
-        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<Categoria> Categoria { get; set; }
 
     }
 
